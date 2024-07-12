@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="formulario.js"></script>
+    <title>formulario</title>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="img/pinterestdownloader.com-1720639851.214621.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.                                                                                                                                                                                                                                                      
+        </video>
+    </div>
+
+    <div class="container">
+        <h1 class="titulo">Cadastro
+            <img class="img" src="img/Wild (1).png" alt="" width="5%" height="5%">
+        </h1> 
+        <p>Ao se cadastrar, você fará parte de uma comunidade dedicada à conservação e ao bem-estar dos nossos preciosos ecossistemas. 
+            Vamos juntos fazer a diferença!</p>
+        <div class="conteudo">
+            <div class="formulario">
+                <label for="">Nome:</label> <br>
+                <input class="input-texto" type="text" id="Nome" placeholder="Nome">
+                <br>
+                <label for="">Senha:</label> <br>
+                <input class="input-texto" type="Senha" id="Senha" placeholder="Senha">
+                <br>        
+                <p>Gênero:</p>
+                <input type="radio" name="Genero" value="feminino" id="feminino">
+                <label for="">feminino</label>
+        
+                <input type="radio" name="Genero"  value="Masculino" id="Masculino">
+                <label for="">Masculino</label>   <br><br>
+                
+                
+            </div>
+    
+            <div class="formulario">
+                <label for="">Email:</label> <br>
+                <input class="input-texto" type="email" id="Email" placeholder="Email">
+                <br>
+                <label for="">Sua idade:</label> <br>
+                <input type="number" id="idade">
+
+
+                                   
+                </select> <br> <br> <br>
+
+               <input  type="checkbox" id="opção1" value="opção1">
+               <label id="termos" for="">Li e concordo com os termos de uso?</label>
+
+            </div>            
+        </div>   
+        <div class="btn-container">
+            <button class="custom-btn" value="button" type="button" onclick= Enviar()>Enviar</button>
+        </div>            
+    </div>
+</body>
+</html>

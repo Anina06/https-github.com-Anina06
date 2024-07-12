@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/ooq.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Adiciona uma leve sombra ao texto para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#backButton {
+    background-color: #732ec2; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#backButton:hover {
+    background-color: #d477c6;
+    transform: scale(1.05);
+}
+
+  
+  
+  
+  
